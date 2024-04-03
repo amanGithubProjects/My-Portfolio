@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .material-symbols-outlined{
     vertical-align: middle;
     line-height: 1px;
@@ -20,4 +22,3 @@
 .card > img{
     height: 240px;
 }
-#map { height: 300px; }

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ----AOS----- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- leafletjs file -->
@@ -11,18 +13,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <title>PORTFOLIO</title>
+    <title>AMAN VERMA</title>
+    <link rel="icon" type="image/x-icon" href="images/A.png" />
 </head>
 
 <body>
     <div class="container-fluid px-0">
         <!-- navbar -->
-        <div class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-white  shadow" style="background-image: linear-gradient(rgb(60, 122, 192), rgba(221, 202, 79, 0.799));">
             <div class="container-fluid">
                 <a class="navbar-brand text-warning-emphasis" href="/">
                     <span class="material-symbols-outlined me-1">
                         important_devices</span>
-                   <span class="text-danger-emphasis "> Aman Verma </span>
+                    <span class="text-danger-emphasis fw-bolder "> Aman Verma </span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,17 +35,20 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                             <li class="nav-item d-flex justify-content-center border-bottom border-info rounded-4">
-                                <a class="nav-link text-warning-emphasis" href="/">Home</a>
+                                <a class="nav-link text-warning-emphasis fw-bold " href="/">Home</a>
                             </li>
                             <li class="nav-item d-flex justify-content-center border-bottom border-info rounded-4">
-                                <a class="nav-link  text-warning-emphasis " href="#about">About</a>
+                                <a class="nav-link text-warning-emphasis fw-bold" href="#skills">Skills</a>
                             </li>
                             <li class="nav-item d-flex justify-content-center border-bottom border-info rounded-4">
-                                <a class="nav-link text-warning-emphasis " href="#projects">Projects</a>
+                                <a class="nav-link text-warning-emphasis fw-bold" href="#projects">Projects</a>
                             </li>
-                            
                             <li class="nav-item d-flex justify-content-center border-bottom border-info rounded-4">
-                                <a class="nav-link  text-warning-emphasis" href="#contact">Contact</a>
+                                <a class="nav-link text-warning-emphasis fw-bold" href="#about">About Me</a>
+                            </li>
+
+                            <li class="nav-item d-flex justify-content-center border-bottom border-info rounded-4">
+                                <a class="nav-link text-warning-emphasis fw-bold" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -53,23 +59,23 @@
 
         <!-- hero -->
 
-        <header class="bg-light py-5">
+        <header class="bg-light py-5 bg-warning-subtle" data-aos="zoom-out-right" data-aos-duration="3000">
             <div class="container px-5">
                 <div class="row align-items-center">
                     <div class="col-lg-8 col-xl-7 col-xxl-6">
                         <div class="my-5">
-                            <h2 class="text-center text-primary-emphasis fw-bolder mb-2">Hi, I am <span class="text-danger-emphasis "> Aman Verma </span></h2>
+                            <h2 class="text-center text-primary-emphasis fw-bolder mb-2">
+                                Hi, I am
+                                <span class="text-danger-emphasis"> Aman Verma </span>
+                            </h2>
                             <h2 class="text-primary-emphasis text-center fw-bold mb-2">
                                 a Frontend Developer
                             </h2>
                             <p class="lead text-muted mb-4 text-center">
-                                I Specialise in building web application using Javascript
-                                Frameworks like Angular and knowledge in React.js and Next.js
-                                . For Ui/Ux, Angular Material and Bootstrap,Vanilla CSS.
-                                Scroll down to see what I have been working on.
+                                Passionate about building sleek and intuitive user interfaces. With a focus on several Frameworks and Libreries, I transform designs into seamless web and mobile experiences. I thrive on creating visually appealing and responsive websites that elevate user engagement and satisfaction.
                             </p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-center">
-                                <a class="btn btn-primary btn-lg text-uppercase" href="#about">Learn more
+                                <a class="btn btn-primary btn-lg text-uppercase" href="#about">Know more
                                     <span class="material-symbols-outlined ms-2">help_center</span>
                                 </a>
                                 <a class="btn btn-outline-primary btn-lg text-uppercase" href="#projects">View my work
@@ -78,8 +84,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-xxl-6 justify-content-center">
-                        <img class="img-fluid rounded-3 my-5" src="images/hero1.jpg" alt="hero image" />
+                    <div class="col-xl-5 col-xxl-6 justify-content-center" data-aos="flip-right"
+                        data-aos-duration="1500">
+                        <img class="img-fluid rounded-3 my-5" src="images/hero1.webp" alt="hero image" />
                     </div>
                 </div>
             </div>
@@ -89,14 +96,14 @@
         <main>
             <!-- about -->
 
-            <section id="about" class="text-center py-2">
+            <section id="skills" class="text-center py-2 bg-success-subtle" data-aos="zoom-in-right"
+                data-aos-duration="2000">
                 <div class="container py-5">
                     <div class="row justify-content-center">
-                        
                         <hr />
-                        <h2 class="fw-bold text-info">About</h2>
+                        <h2 class="fw-bold py-3 " style="background-image: linear-gradient(rgb(71, 166, 79), rgb(88, 238, 173));">SKILLS</h2>
                         <hr />
-                        
+
                         <p class="lead text-muted mb-5">
                             I possess the skills and expertise necessary to develop
                             scalable, maintainable, and high-performance web applications
@@ -108,7 +115,7 @@
                 </div>
                 <div class="container mb-md-5 mb-2">
                     <div class="row">
-                        <div class="col-lg-4 mx-auto my-4">
+                        <div class="col-lg-4 mx-auto my-4" data-aos="flip-left" data-aos-duration="1500">
                             <div class="d-flex mb-5 about">
                                 <span class="material-symbols-outlined m-auto text-primary">code_blocks</span>
                             </div>
@@ -118,11 +125,11 @@
                                 Framework,Angular Material
                             </p>
                             <div class="images">
-                                <img class="img-fluid w-25 " src="images/angular.png" alt="">
-                                <img class="img-fluid w-25 rounded-2  " src="images/angular-material.jpg" alt="">
+                                <img class="img-fluid w-25" src="images/angts.webp" alt="" />
+                                <img class="img-fluid w-25 rounded-2" src="images/angular-material2.webp" alt="" />
                             </div>
                         </div>
-                        <div class="col-lg-4 mx-auto my-4">
+                        <div class="col-lg-4 mx-auto my-4" data-aos="flip-left" data-aos-duration="2000">
                             <div class="d-flex mb-5 about">
                                 <span class="material-symbols-outlined m-auto text-primary">responsive_layout</span>
                             </div>
@@ -132,24 +139,24 @@
                                 devices using Bootstrap,HTML,CSS
                             </p>
                             <div class="images">
-                                <img class="img-fluid w-50 rounded-2  " src="images/bootstrap.jpg" alt="">
-                                <img class="img-fluid w-25 " src="images/html&css.png" alt="">
+                                <img class="img-fluid w-50 rounded-2" src="images/bootstrap.webp" alt="" />
+                                <img class="img-fluid w-25" src="images/html&css.webp" alt="" />
                             </div>
                         </div>
 
-                        <div class="col-lg-4 mx-auto my-4">
+                        <div class="col-lg-4 mx-auto my-4" data-aos="flip-left" data-aos-duration="2500">
                             <div class="d-flex mb-5 about">
                                 <span class="material-symbols-outlined m-auto text-primary">local_library</span>
                             </div>
-                            <h4 class="text-success-emphasis">Learning new Technologies</h4>
+                            <h4 class="text-success-emphasis">Known new Technologies</h4>
                             <p class="text-muted">
                                 Stay updated with industry trends, learning new technologies
                                 like React.js,Next.js, node.js to enhance skills
                             </p>
                             <div class="images">
-                                <img class="img-fluid w-25 " src="images/react.png" alt="">
-                                <img class="img-fluid w-25 " src="images/nextjs.jpg" alt="">
-                                <img class="img-fluid w-25 " src="images/tailwind.png" alt="">
+                                <img class="img-fluid w-25" src="images/react.webp" alt="" />
+                                <img class="img-fluid w-25" src="images/nextjs.webp" alt="" />
+                                <img class="img-fluid w-25" src="images/tailwind.webp" alt="" />
                             </div>
                         </div>
                     </div>
@@ -158,48 +165,104 @@
             <!-- end about -->
             <!-- projects -->
 
-            <section id="projects" class="text-center py-5">
+            <section id="projects" class="text-center py-5 bg-warning-subtle" data-aos="zoom-in-right"
+                data-aos-duration="1000">
                 <div class="container py-5">
                     <div class="row justify-content-center">
                         <hr />
-                        <h2 class="fw-bold text-danger-emphasis ">Projects</h2>
+                        <h2 class="fw-bold text-danger-emphasis  py-3" style="background-image: linear-gradient(rgb(205, 220, 73), rgb(221, 155, 85));">PROJECTS</h2>
                         <hr />
                         <p class="lead text-muted mb-5">
-                            I possess the skills and expertise necessary to develop
-                            scalable, maintainable, and high-performance web applications
-                            using the Angular framework. I possess a strong understanding of
-                            TypeScript,javascript, HTML, and CSS, which are foundational
-                            technologies for Angular development.
+                            I've worked on various frontend projects for visualizing complex datasets in real-time. 
+                            I utilized JavaScript frameworks like Angular to build dynamic components and integrated with backend APIs to fetch and display data dynamically.
+                            These projects involved collaborating with teams, implementing modern UI designs, and utilizing technologies. 
                         </p>
                     </div>
                 </div>
                 <div class="container mb-5">
                     <div class="row">
-                        <div class="col-lg-4 mx-auto mb-5">
+                        <!-- ------Angular projects----- -->
+                        <div class="col-lg-4 mx-auto mb-5" data-aos="flip-left" data-aos-duration="1500">
                             <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top img-fluid " src="images/angular3.jpg" alt="project 1" />
+                                <img class="card-img-top img-fluid" src="images/angular3.webp" alt="project 1" />
                                 <div class="card-body p-4">
                                     <h5 class="card-title mb-3">Angular Framework</h5>
                                     <div class="mb-2">
                                         <div class="badge bg-primary rounded-pill">Angular</div>
-                                        <div class="badge bg-primary rounded-pill">Angular Material</div>
+                                        <div class="badge bg-primary rounded-pill">
+                                            Angular Material
+                                        </div>
                                         <div class="badge bg-primary rounded-pill">Bootstrap</div>
                                     </div>
                                     <p class="card-text">
-                                        This project is created using Angular, Angular Material / Bootstrap
+                                        This project is created using Angular, Angular Material /
+                                        Bootstrap
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
-                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href="https://app.netlify.com/teams/amangithubprojects/overview" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                                        href="https://app.netlify.com/teams/amangithubprojects/overview"
+                                        target="_blank">
                                         <span class="material-symbols-outlined me-1">code</span>
                                         source code
                                     </a>
                                 </div>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Employeer's Details
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://employee-details-by-angular-material.netlify.app/"
+                                                    target="_blank">click on the link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Employees Management
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://employee-management-by-angular.netlify.app"
+                                                    target="_blank">click on the link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Angular CRUD
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://angularr13-crud.netlify.app/" target="_blank">click on
+                                                    the link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mx-auto mb-5">
+                        <!-- ------Bootstrap projects----- -->
+                        <div class="col-lg-4 mx-auto mb-5" data-aos="flip-left" data-aos-duration="2000">
                             <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top img-fluid " src="images/bootstrap3.jpg" alt="project 2" />
+                                <img class="card-img-top img-fluid" src="images/bootstrap3.webp" alt="project 2" />
                                 <div class="card-body p-4">
                                     <h5 class="card-title mb-3">Bootstrap Projects</h5>
                                     <div class="mb-2">
@@ -212,16 +275,84 @@
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
-                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href="https://github.com/amanGithubProjects?tab=repositories" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                                        href="https://github.com/amanGithubProjects?tab=repositories" target="_blank">
                                         <span class="material-symbols-outlined me-1">code</span>
                                         source code
                                     </a>
                                 </div>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Whiteland Real Estate
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://heartfelt-sprinkles-f063cf.netlify.app/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Responsive SEO website
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://amangithubprojects.github.io/SEO-Responsive/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Responsive Restaurent website
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://amangithubprojects.github.io/responsiveRestaurent_website/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Responsive website
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://amangithubprojects.github.io/responsive_website/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mx-auto mb-5">
+                        <!-- ------React projects----- -->
+                        <div class="col-lg-4 mx-auto mb-5" data-aos="flip-left" data-aos-duration="2500">
                             <div class="card h-100 shadow-lg border-0 bg-light">
-                                <img class="card-img-top img-fluid " src="images/react3.webp" alt="project 3" />
+                                <img class="card-img-top img-fluid" src="images/ract.webp" alt="project 3" />
                                 <div class="card-body p-4">
                                     <h5 class="card-title mb-3">React Projects</h5>
                                     <div class="mb-2">
@@ -234,10 +365,61 @@
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
-                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href="https://github.com/amanGithubProjects/new-todo-app" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                                        href="https://github.com/amanGithubProjects/new-todo-app" target="_blank">
                                         <span class="material-symbols-outlined me-1">code</span>
                                         source code
                                     </a>
+                                </div>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Project #1
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://heartfelt-sprinkles-f063cf.netlify.app/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Project #2
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://heartfelt-sprinkles-f063cf.netlify.app/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Project #3
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <a href="https://heartfelt-sprinkles-f063cf.netlify.app/"
+                                                    target="_blank">Click On The Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -245,43 +427,125 @@
                 </div>
             </section>
             <!-- end projects -->
-            
-            <!-- contact -->
-
-            <section id="contact" class="text-center py-5">
+            <!-- About Me -->
+            <section id="about" class="bg-primary-subtle" data-aos="zoom-out-right" data-aos-duration="2000">
                 <div class="container py-5">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center text-center">
                         <hr />
-                        <h2 class="fw-bold text-info ">Contact</h2>
+                        <h2 class="fw-bold py-3  " style="background-image: linear-gradient(rgb(21, 64, 236), rgb(85, 130, 221));">ABOUT ME</h2>
                         <hr />
                         <p class="lead text-muted mb-5">
-                            Do you a Frontend Developer with Angular framework? I would love
-                            to her from you.
+                            Hello there, I'm a seasoned frontend developer with 
+                            professional experience in crafting immersive and responsive
+                            user interfaces. My expertise lies in translating design
+                            concepts into seamless web experiences, utilizing a combination
+                            of several kind of frameworks. I'm passionate about creating
+                            visually stunning and intuitive interfaces that not only meet
+                            but exceed user expectations.
+                        </p>
+                        <div class="col   offset-md-4   " data-aos="flip-up" data-aos-duration="2500">
+                            <ul class="nav nav-pills mb-3 text-center  " id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">
+                                        Skills
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">
+                                        Experience
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">
+                                        Education
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content " id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab" tabindex="0">
+                                    <ul class="text-start ">
+                                        <li><span>UI/UX</span><br />Design Web/Interfaces</li>
+                                        <li>
+                                            <span>Web DEvelopment</span><br />Design Web/Interfaces
+                                        </li>
+                                        <li>
+                                            <span>App DEvelopment</span><br />Design Web/Interfaces
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <ul class="text-start ">
+                                        <li><span>2020-2021</span><br>Software engineer Trainee</li>
+                                        <li><span>2021-2022</span><br>Software Engineer</li>
+                                        <li><span>2023-2024</span><br>Frontened Engineer</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab" tabindex="0">
+                                    <ul class="text-start ">
+                                        <li><span>2020</span><br />B.E in C.S.E</li>
+                                        <li><span>2017</span><br />Diploma in C.S.E</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact -->
+
+            <section id="contact" class="text-center  py-5 bg-info-subtle" data-aos="zoom-in-right"
+                data-aos-duration="2000">
+                <div class="container py-5 mt-3">
+                    <div class="row justify-content-center">
+                        <hr />
+                        <h2 class="fw-bold py-3 " style="background-image: linear-gradient(rgb(21, 179, 236), rgb(85, 221, 219));">CONTACT</h2>
+                        <hr />
+                        <p class="lead text-muted mb-5">
+                            "Do you have any inquiries? Feel free to contact me. I would love to hear from you."
                         </p>
                     </div>
                 </div>
                 <div class="container mb-md-3 mb-2">
                     <div class="row">
                         <div class="col-xl-5 col-xxl-6 mb-5">
-                            <div id="map"></div>
+                            <div  ><iframe class="shadow-lg  " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235423.97576527367!2d86.01095920810663!3d22.78394376670635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e31989f0e2b5%3A0xeeec8e81ce9b344!2sJamshedpur%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1712124543087!5m2!1sen!2sin" width="300" height="280" style="border:2px solid rgb(145, 145, 225);border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                         </div>
                         <div class="col-xl-7 col-lg-8 col-xxl-6 mb-5">
-                            <div class="mb-3">
-                                <h6 class="text-uppercase mb-2">Current Address</h6>
-                                <p class="lead mb-0 text-success-emphasis">Gurgaon,Haryana</p>
+                            <div class="mb-2">
+                                <p class="text-uppercase mb-0 text-muted">Current Address</p>
+                                <h4 class="lead text-success-emphasis">Gurgaon,Haryana</h4>
                             </div>
-                            <div class="mb-3">
-                                <h6 class="text-uppercase mb-2">Parmanent Address</h6>
-                                <p class="lead mb-0 text-success-emphasis">Jamshedpur,Jharkhand</p>
+                            <div class="mb-2">
+                                <p class="text-uppercase mb-0 text-muted">
+                                    Parmanent Address
+                                </p>
+                                <h4 class="lead mb-0 text-success-emphasis">
+                                    Jamshedpur,Jharkhand
+                                </h4>
                             </div>
 
-                            <div class="mb-3">
-                                <h6 class="text-uppercase mb-2">Mobile Number</h6>
-                                <p class="lead mb-0 text-success-emphasis">+91-8092139454</p>
+                            <div class="mb-2">
+                                <p class="text-uppercase mb-0 text-muted">Mobile Number</p>
+                                <h4 class="lead text-success-emphasis">+91-8092139454</h4>
                             </div>
-                            <div class="mb-sm-3">
-                                <h6 class="text-uppercase mb-2">Email</h6>
-                                <p class="lead mb-0 text-success-emphasis">aman.verma.champ@gmail.com</p>
+                            <div class="mb-2">
+                                <p class="text-uppercase mb-0 text-muted">Email</p>
+                                <h4 class="lead mb-0 text-success-emphasis">
+                                    aman.verma.champ@gmail.com
+                                </h4>
+                            </div>
+                            <div>
+                                <a href="images/Aman_CV.pdf" download class="btn btn-lg " style="background-image: linear-gradient(rgb(21, 179, 236), rgb(85, 221, 219));">Download CV</a>
                             </div>
                         </div>
                     </div>
@@ -292,13 +556,18 @@
     </div>
 
     <!-- footer -->
-    
-    <footer class="text-center py-4 bg-dark text-light">
+
+    <footer class="text-center py-4 bg-dark  text-light">
         <div class="conatiner px-5 mb-2">
             Copyright &copy; 2024, Aman's portfolio.
         </div>
     </footer>
     <!-- end footer -->
+    <!-- ----AOS----- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- leafletjs script file -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
