@@ -22,3 +22,9 @@ html {
 .card > img{
     height: 240px;
 }
+.dwnBtn:hover{
+    background-image: linear-gradient(rgb(246, 201, 160), rgb(240, 82, 9)) !important;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+}
