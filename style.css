@@ -22,6 +22,28 @@ html {
 .about > .material-symbols-outlined{
     font-size: 48px;
 }
+
+#navbarNav a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#navbarNav a:hover {
+  color: rgb(1, 9, 77) !important;
+  background-image: linear-gradient(rgb(246, 201, 160), rgb(240, 82, 9)) !important;
+  /* border-radius: 18px; */
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 18px;
+  transform: scale(1.1); /* increase size smoothly */
+}
+img.img-fluid {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img.img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
 .card > img{
     height: 240px;
 }
@@ -31,3 +53,4 @@ html {
     border-bottom-right-radius: 18px;
 
 }
+
